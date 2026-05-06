@@ -1,0 +1,12 @@
+{
+  "name": "node-playground",
+  "version": "1.0.0",
+  "description": "Node.js practice project for learning basics",
+  "license": "ISC",
+  "author": "Sharmin Sultana",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
