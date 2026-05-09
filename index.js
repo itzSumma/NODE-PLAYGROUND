@@ -23,6 +23,13 @@ const server = http.createServer((req, res) => {
         });
         res.end("This is the contact page");
     }
+
+    else {
+    res.writeHead(404, {
+        "content-type": "text/plain"
+    });
+    res.end("Page not found");
+}
 });
 
 server.listen(5000, () => {
