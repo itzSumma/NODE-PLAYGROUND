@@ -7,8 +7,16 @@ app.get('/', (req, res) => {
 })
 // Another route
 
+const users =[
+    {id:1,name:"John Doe",email: "a@b.com"},
+    {id:2,name:"Jane Doe",email: "c@d.com"},
+    {id:3,name:"Bob Smith",email: "e@f.com"},
+]
+
 app.get("/users",(req,res)=>{
-    res.send("Users route here")});
+    // res.send("Users route here")
+res.send(users);
+});
 
 
     /*
